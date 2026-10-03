@@ -1,6 +1,7 @@
 # Simulation outputs
 *.vcd
 *.fst
+*.fst.hier
 *.wlf
 *.ghw
 *.vpd
@@ -13,6 +14,14 @@ obj_dir/
 sim_build/
 xsim.dir/
 simulate_rtl/
+
+# Verilator
+coverage.dat
+logs/
+annotated/
+gmon.out
+profile_exec.dat
+profile.vlt
 
 # Vivado
 .Xil/
@@ -41,6 +50,10 @@ __pycache__/
 venv/
 env/
 *.egg-info/
+.pytest_cache/
+
+# cocotb
+results.xml
 
 # OS
 .DS_Store
